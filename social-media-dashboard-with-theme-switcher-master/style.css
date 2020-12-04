@@ -97,22 +97,49 @@ body {
 
 
 #toggle-btn {
- -webkit-outline: none;
-  -moz-outline: none;
-  -ms-outline: none;
-  outline: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
-  -webkit-width:50px;
-  -ms-width:50px;
-  -moz-width:50px;
-  width: 50px;
-  -webkit-height:25px;
-  -ms-height:25px;
-  -moz-height:25px;
-  height: 25px;
+    -webkit-outline: none;
+    -moz-outline: none;
+    -ms-outline: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -webkit-width:50px;
+    -ms-width:50px;
+    -moz-width:50px;
+    width: 50px;
+    -webkit-height:25px;
+    -ms-height:25px;
+    -moz-height:25px;
+    height: 25px;
+    -webkit-background-image: linear-gradient(
+    to right,
+    hsl(210, 78%, 56%),
+    hsl(146, 68%, 55%)
+  );
+  
+  -ms-background-image: linear-gradient(
+    to right,
+    hsl(210, 78%, 56%),
+    hsl(146, 68%, 55%)
+  );
+  
+  -moz-background-image: linear-gradient(
+    to right,
+    hsl(210, 78%, 56%),
+    hsl(146, 68%, 55%)
+  );
+  background-image: linear-gradient(
+    to right,
+    hsl(210, 78%, 56%),
+    hsl(146, 68%, 55%)
+  );
+  position: relative;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
 }
 
 #toggle-btn:hover {
