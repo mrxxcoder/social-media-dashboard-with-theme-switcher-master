@@ -97,17 +97,22 @@ body {
 
 
 #toggle-btn {
-    outline: none;
+ -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
   appearance: none;
+  -webkit-width:50px;
+  -ms-width:50px;
+  -moz-width:50px;
   width: 50px;
+  -webkit-height:25px;
+  -ms-height:25px;
+  -moz-height:25px;
   height: 25px;
-  background-image: linear-gradient(
-    to right,
-    hsl(210, 78%, 56%),
-    hsl(146, 68%, 55%)
-  );
-  position: relative;
-  border-radius: 50px;
 }
 
 #toggle-btn:hover {
